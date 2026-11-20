@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的個人網站</title>
+
+  <style>
+    /* 任務 1：修改整個網頁的文字與背景顏色 */
+    body {
+      color: #333333;               /* 深灰色文字 */
+      background-color: #f4f7f6;    /* 淺灰綠色背景 */
+      
+      /* 任務 4：自由增加 CSS 屬性（設定行高讓閱讀更舒適） */
+      line-height: 1.6;
+    }
+
+    /* 任務 2：修改主標題（設定顏色、大小、對齊方式） */
+    h1 {
+      color: #2c3e50;               /* 深藍灰色標題 */
+      font-size: 36px;              /* 字體大小 */
+      text-align: center;           /* 文字置中 */
+      font-weight: bold;            /* 字體加粗 */
+    }
+
+    /* 任務 3：自訂 class 並設定至少兩個屬性 */
+    .notice {
+      color: #d9534f;               /* 醒目的紅色文字 */
+      background-color: #fdf2f2;    /* 淺紅色底色 */
+      font-weight: bold;            /* 粗體字 */
+    }
+  </style>
+</head>
+<body>
+
+  <h1>歡迎來到我的 GitHub 網站</h1>
+
+  <p>這是我使用 HTML 與 CSS 製作的個人網頁。</p>
+
+  <!-- 任務 3 實際套用：在標籤中加入 class="notice" -->
+  <p class="notice">重要公告：網站持續更新中！</p>
+
+</body>
+</html>
